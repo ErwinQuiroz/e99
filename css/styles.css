@@ -14,10 +14,6 @@ li {
 
 /*--- Header ---*/
 
-header{
-    padding: 15px;
-    font-size: 1.5rem;
-}
 
 .Navigation_div{
     display: inline-block;
@@ -41,6 +37,33 @@ header{
     display: inline-block;
 }
 
+.text_color_white{
+    color: white;
+}
+
+.text_color_black{
+    color: black;
+}
+
+.background_color_white{
+    background-color: white;
+}
+
+.background_color_black{
+    background-color: black;
+}
+
+.black_buttom{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.black_buttom:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
 
 /*---- Footer ---*/
 
