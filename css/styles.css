@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*--- Header ---*/
+
+header{
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.Navigation_div{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    margin-top: 30px;
+    }
+
+.Navigation_li{
+    display: inline-block;
+    }
+
+.Navigation_nav{
+    display: inline-block;
+    }
+
+.navigation_btn{
+    color: black;
+    background-color: white;
+    border-color: white;
+    display: inline-block;
+}
+
+
+/*---- Footer ---*/
+
+footer{
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.footer_logo{
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.footer_columnas{
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.footer_columnas_title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.enviar_btn{
+    color: black;
+    background-color: white;
+    border-color: white;
+    display: inline-block;
+}
+
+.footer_last_line_rights{
+    display: inline-block;
+    margin-top: 40px;
+}
+.social_media_block{
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    margin-top: 40px;
+}
+.social_media_logo{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+
+}
+
+/*--- Main Home --*/
+
+
+.claim{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+.main_services{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.main_section{
+    background-image: url("../Img/explore-digital-banner-greyscales.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.main_section_main{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.article_main{
+    width: 20%;
+    display: inline-block;
+    margin: 50px;
+}
+
+.main_section_main{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.article_main_title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*--- main titles in all pages ---*/
+
+
+.h1_main_title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.h2_second_title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*--- Página: Contacto ---*/
+
+.form_div{
+margin: 1.5rem;
+}
+
+.form_label{
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin: 1.5rem;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.form_input{
+    box-sizing: border-box;
+    height: 100%;
+    width: 60%;
+    font-size: 1.5rem;
+}
+
+.form_input_enviar{
+    box-sizing: border-box;
+    height: 100%;
+    width: 60%;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+
+/*--- Página: Nosotros ---*/
+
+.nosotros_section_01{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.nosotros_section_01_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.nosotros_section_01_p{
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.nosotros_article_main{
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+}
+
+/*--- Página: Servicios ---*/
+
+.section_main_services{
+    margin-bottom: 100px;
+}
+
+.section_web_article{
+    display: inline-block;
+    margin-left: 150px;
+    padding-right: 200px;
+    width: 50%;
+}
+
+.section_web_img{
+    display: inline-block;
+    height: 250px;
+    width: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*--- Página: Portafolio ---*/
+
+.div_00{
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.div_00_img{
+    display: block;
+    width: 70%;
+}
