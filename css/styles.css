@@ -9,6 +9,20 @@
 
 li {
     list-style: none;
+    text-align: left;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+    text-decoration: underline;
 }
 
 
@@ -63,9 +77,15 @@ li {
     background-color: black;
     color: white;
     font-weight: bold;
+    border-color: white;
 }
 
 /*---- Footer ---*/
+
+h2{
+    font-size: 1em;
+    font-weight: bold;
+}
 
 footer{
     padding: 15px;
@@ -80,10 +100,20 @@ footer{
     width: auto;
 }
 
+.logo_margin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .footer_columnas{
     width: 20%;
     display: inline-block;
     padding: 20px;
+}
+
+.form_margin{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .footer_columnas_title{
@@ -112,6 +142,7 @@ footer{
     width: 30px;
     height: 30px;
     display: inline-block;
+    justify-content: end;
 
 }
 
