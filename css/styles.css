@@ -304,6 +304,12 @@ margin: 1.5rem;
     width: 70%;
 }
 
+.portfolio_content{
+    display: flex;
+    justify-content: center;
+
+}
+
 /*--- pagina de contacto ---*/
 
 .form_e99{
