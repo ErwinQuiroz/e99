@@ -207,6 +207,7 @@ footer{
     text-align: center;
 }
 
+
 /*--- Página: Contacto ---*/
 
 .form_div{
@@ -301,4 +302,10 @@ margin: 1.5rem;
 .div_00_img{
     display: block;
     width: 70%;
+}
+
+/*--- pagina de contacto ---*/
+
+.form_e99{
+    text-align: center;
 }
