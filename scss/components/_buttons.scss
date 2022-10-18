@@ -1,0 +1,22 @@
+.btn_e99{
+    background-color: $color-secundario;
+    color: $color-primario;
+    font-weight: bold;
+    &:hover{
+        background-color: $color-primario;
+        font-weight: bold;
+        border-color: white;
+        text-decoration: underline;
+    }
+}
+
+.btn_e99_2{
+    background-color: $color-secundario;
+    color: $color-primario;
+    font-weight: bold;
+    &:hover{
+        background-color: $color-primario;
+        font-weight: bold;
+        border-color: white;
+    }
+}

@@ -1,0 +1,21 @@
+@import 'utils/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+
+@import 'components/buttons';
+@import 'components/cover';
+@import 'components/dropdown';
+
+@import 'pages/index';
+@import 'pages/contacto';
+@import 'pages/';
+@import 'pages/portafolio';
+@import 'pages/servicios';

@@ -1,317 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color:black;
-    color: aliceblue;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-li {
-    list-style: none;
-    text-align: left;
+ul,
+ol {
+  list-style: none;
 }
 
-body{
-    background-color: black;
+a {
+  text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-}
-a:hover{
-    color: inherit;
-    text-decoration: underline;
+* {
+  background-color: black;
+  color: white;
 }
 
-
-/*--- Header ---*/
-
-
-.Navigation_div{
-    display: inline-block;
-    position: absolute;
-    right: 150px;
-    margin-top: 30px;
-    }
-
-.Navigation_li{
-    display: inline-block;
-    }
-
-.Navigation_nav{
-    display: inline-block;
-    }
-
-.navigation_btn{
-    color: black;
-    background-color: white;
-    border-color: white;
-    display: inline-block;
+* {
+  font-family: roboto;
 }
 
-.text_color_white{
-    color: white;
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 2rem;
 }
 
-.text_color_black{
-    color: black;
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 2rem;
 }
 
-.background_color_white{
-    background-color: white;
+.li_e99 {
+  color: white;
+}
+.li_e99:hover {
+  text-decoration: underline;
 }
 
-.background_color_black{
-    background-color: black;
+.links_e99 {
+  color: white;
+}
+.links_e99:hover {
+  text-decoration: underline;
+  color: white;
 }
 
-.black_buttom{
-    background-color: white;
-    color: black;
-    font-weight: bold;
+.e99_space_header {
+  margin-top: 1.5rem;
+  padding-bottom: 1rem;
 }
 
-.black_buttom:hover{
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    border-color: white;
+.e99_space {
+  padding-top: 1rem;
 }
 
-/*---- Footer ---*/
-
-h2{
-    font-size: 1em;
-    font-weight: bold;
+.e99_space_down {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.8rem;
 }
 
-footer{
-    padding: 15px;
-    font-size: 1rem;
+.e99_center {
+  align-items: center;
+  justify-content: center;
 }
 
-.footer_logo{
-    align-items: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    height: 50px;
-    width: auto;
+.border-top {
+  color: white;
 }
 
-.logo_margin{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.e99_form_space {
+  padding-top: 5px;
 }
 
-.footer_columnas{
-    width: 20%;
-    display: inline-block;
-    padding: 20px;
+.btn_e99 {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.btn_e99:hover {
+  background-color: black;
+  font-weight: bold;
+  border-color: white;
+  text-decoration: underline;
 }
 
-.form_margin{
-    margin-top: 5px;
-    margin-bottom: 5px;
+.btn_e99_2 {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.btn_e99_2:hover {
+  background-color: black;
+  font-weight: bold;
+  border-color: white;
 }
 
-.footer_columnas_title{
-    font-weight: bold;
-    margin-bottom: 10px;
+.e99_media_space {
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
-.enviar_btn{
-    color: black;
-    background-color: white;
-    border-color: white;
-    display: inline-block;
+.e99_hero_txt {
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
-.footer_last_line_rights{
-    display: inline-block;
-    margin-top: 40px;
-}
-.social_media_block{
-    display: inline-block;
-    position: absolute;
-    right: 150px;
-    margin-top: 40px;
-}
-.social_media_logo{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    justify-content: end;
-
+.e99_space_elements {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
-/*--- Main Home --*/
-
-
-.claim{
-    font-size: 3rem;
-    font-weight: bold;
-    padding-left: 150px;
+.e99_bg_trans {
+  background-color: transparent;
 }
 
-.main_services{
-    padding-left: 150px;
-    text-decoration: none;
+.e99_bg_img {
+  background-image: url(../Img/explore-digital-banner-greyscales.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
-.main_section{
-    background-image: url("../Img/explore-digital-banner-greyscales.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  
+.e99_media_space {
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
-.main_section_main{
-    margin-left: 50px;
-    margin-top: 50px;
+.e99_hero_txt {
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
-.article_main{
-    width: 20%;
-    display: inline-block;
-    margin: 50px;
+.e99_space_elements {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
-.main_section_main{
-    font-size: 2rem;
-    font-weight: bold;
+.e99_bg_trans {
+  background-color: transparent;
 }
 
-.article_main_title{
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.e99_bg_img {
+  background-image: url(../Img/explore-digital-banner-greyscales.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
-
-/*--- main titles in all pages ---*/
-
-
-.h1_main_title{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    padding: 10px;
-}
-.h2_second_title{
-    font-size: 2rem;
-    text-align: center;
-}
-
-
-/*--- Página: Contacto ---*/
-
-.form_div{
-margin: 1.5rem;
-}
-
-.form_label{
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    margin: 1.5rem;
-    gap: 1.5rem;
-    text-align: center;
-}
-
-.form_input{
-    box-sizing: border-box;
-    height: 100%;
-    width: 60%;
-    font-size: 1.5rem;
-}
-
-.form_input_enviar{
-    box-sizing: border-box;
-    height: 100%;
-    width: 60%;
-    font-size: 1.5rem;
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    margin-top: 25px;
-}
-
-
-/*--- Página: Nosotros ---*/
-
-.nosotros_section_01{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 50px;
-}
-
-.nosotros_section_01_img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-bottom: 50px;
-}
-
-.nosotros_section_01_p{
-    text-align: justify;
-    margin-top: 25px;
-}
-
-.nosotros_article_main{
-    display: inline-block;
-    align-items: center;
-    margin: 20px;
-}
-
-/*--- Página: Servicios ---*/
-
-.section_main_services{
-    margin-bottom: 100px;
-}
-
-.section_web_article{
-    display: inline-block;
-    margin-left: 150px;
-    padding-right: 200px;
-    width: 50%;
-}
-
-.section_web_img{
-    display: inline-block;
-    height: 250px;
-    width: auto;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-/*--- Página: Portafolio ---*/
-
-.div_00{
-    display: inline-block;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-.div_00_img{
-    display: block;
-    width: 70%;
-}
-
-.portfolio_content{
-    display: flex;
-    justify-content: center;
-
-}
-
-/*--- pagina de contacto ---*/
-
-.form_e99{
-    text-align: center;
-}
+/*# sourceMappingURL=styles.css.map */
